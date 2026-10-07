@@ -1,6 +1,6 @@
 class One1{
     void method(){
-        System.out.println("ols version");
+        System.out.println("old version");
     }
 }
 abstract class Two2{

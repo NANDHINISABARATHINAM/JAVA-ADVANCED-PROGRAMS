@@ -1,10 +1,10 @@
-public class Objectclass implements Cloneable{
+public class Objectclass implements Cloneable{ //Cloneable is a marker interface-empty interface-in run time providing information to jvm
     int b;
 
     public String toString(){
         return "Object class";
     }
-    public static void main(String[] args) throws CloneNotSupportedException {
+    public static void main(String[] args) throws CloneNotSupportedException { 
         Objectclass ob=new Objectclass();
         //getClass()
         System.out.println(ob.getClass());
